@@ -108,7 +108,7 @@ class Wp_Game_Portfolio_Admin {
 	function create_game_cpt() {
 
 		$labels = array(
-			'name' => _x( 'games', 'Post Type General Name', 'textdomain' ),
+			'name' => _x( 'Game Portfolio', 'Post Type General Name', 'textdomain' ),
 			'singular_name' => _x( 'game', 'Post Type Singular Name', 'textdomain' ),
 			'menu_name' => _x( 'games', 'Admin Menu text', 'textdomain' ),
 			'name_admin_bar' => _x( 'game', 'Add New on Toolbar', 'textdomain' ),
@@ -140,7 +140,7 @@ class Wp_Game_Portfolio_Admin {
 			'label' => __( 'game', 'textdomain' ),
 			'description' => __( '', 'textdomain' ),
 			'labels' => $labels,
-			'menu_icon' => '',
+			'menu_icon' => 'dashicons-megaphone',
 			'supports' => array('title'),
 			'taxonomies' => array(),
 			'public' => true,
