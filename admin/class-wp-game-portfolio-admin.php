@@ -108,12 +108,12 @@ class Wp_Game_Portfolio_Admin {
 	function create_game_cpt() {
 
 		$labels = array(
-			'name' => _x( 'games', 'Post Type General Name', 'textdomain' ),
-			'singular_name' => _x( 'game', 'Post Type Singular Name', 'textdomain' ),
+			'name' => _x( 'Games', 'Post Type General Name', 'textdomain' ),
+			'singular_name' => _x( 'Game', 'Post Type Singular Name', 'textdomain' ),
 			'menu_name' => _x( 'Game Portfolio', 'Admin Menu text', 'textdomain' ),
 			'name_admin_bar' => _x( 'game', 'Add New on Toolbar', 'textdomain' ),
-			'archives' => __( 'game Archives', 'textdomain' ),
-			'attributes' => __( 'game Attributes', 'textdomain' ),
+			'archives' => __( 'Game Archives', 'textdomain' ),
+			'attributes' => __( 'Game Attributes', 'textdomain' ),
 			'parent_item_colon' => __( 'Parent game:', 'textdomain' ),
 			'all_items' => __( 'All games', 'textdomain' ),
 			'add_new_item' => __( 'Add New game', 'textdomain' ),
@@ -132,8 +132,8 @@ class Wp_Game_Portfolio_Admin {
 			'use_featured_image' => __( 'Use as featured image', 'textdomain' ),
 			'insert_into_item' => __( 'Insert into game', 'textdomain' ),
 			'uploaded_to_this_item' => __( 'Uploaded to this game', 'textdomain' ),
-			'items_list' => __( 'games list', 'textdomain' ),
-			'items_list_navigation' => __( 'games list navigation', 'textdomain' ),
+			'items_list' => __( 'Games list', 'textdomain' ),
+			'items_list_navigation' => __( 'Games list navigation', 'textdomain' ),
 			'filter_items_list' => __( 'Filter games list', 'textdomain' ),
 		);
 		$args = array(
