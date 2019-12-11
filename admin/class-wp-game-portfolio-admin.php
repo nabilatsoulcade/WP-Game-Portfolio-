@@ -162,8 +162,6 @@ class Wp_Game_Portfolio_Admin {
 
 	}
 
-	add_action( 'init', 'create_game_cpt', 0 );
-
 	//Add Fields to custom game post type
 	if( function_exists('acf_add_local_field_group') ):
 
