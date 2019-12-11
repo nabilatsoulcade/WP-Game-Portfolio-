@@ -170,25 +170,6 @@ class Wp_Game_Portfolio_Admin {
 			'title' => 'Game Portfolio',
 			'fields' => array(
 				array(
-					'key' => 'field_5df1550b30e70',
-					'label' => 'Game Name',
-					'name' => 'game_name',
-					'type' => 'text',
-					'instructions' => 'The name of your game',
-					'required' => 1,
-					'conditional_logic' => 0,
-					'wrapper' => array(
-						'width' => '',
-						'class' => '',
-						'id' => '',
-					),
-					'default_value' => '',
-					'placeholder' => '',
-					'prepend' => '',
-					'append' => '',
-					'maxlength' => '',
-				),
-				array(
 					'key' => 'field_5df1553c30e71',
 					'label' => 'Game Year',
 					'name' => 'game_year',
@@ -413,7 +394,7 @@ class Wp_Game_Portfolio_Admin {
 					array(
 						'param' => 'post_type',
 						'operator' => '==',
-						'value' => 'post',
+						'value' => 'game-portfolio',
 					),
 				),
 			),
