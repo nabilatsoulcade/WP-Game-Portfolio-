@@ -51,7 +51,7 @@ class Wp_Game_Portfolio_Admin {
 
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
-
+		add_action('init', array( $this, 'create_game_cpt' ));
 	}
 
 	/**
