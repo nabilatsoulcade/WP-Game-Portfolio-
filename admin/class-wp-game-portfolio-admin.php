@@ -160,7 +160,7 @@ class Wp_Game_Portfolio_Admin {
 		);
 		register_post_type( 'game-portfolio', $args );
 
-	}
+	
 
 	//Add Fields to custom game post type
 	if( function_exists('acf_add_local_field_group') ):
@@ -428,4 +428,5 @@ class Wp_Game_Portfolio_Admin {
 		));
 		
 		endif;
+	}
 }
